@@ -4,8 +4,6 @@ class Solution {
             int n = board.size();
             int m = board[0].size();
     
-            cout << row << ", " << col << "Hello ";
-    
             for(int i = 0; i < n; i++) {
                 if(i != row) {
                     if(board[i][col] == board[row][col]) {
